@@ -1,0 +1,28 @@
+{
+  "name": "toxicpub",
+  "version": "1.0.0",
+  "description": "bot made with discordjs for my toxicpub guild",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/toxicbloud/toxicpub.git"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "pub",
+    "toxic"
+  ],
+  "author": "toxicbloud",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/toxicbloud/toxicpub/issues"
+  },
+  "homepage": "https://github.com/toxicbloud/toxicpub#readme",
+  "dependencies": {
+    "discord.js": "^12.5.3"
+  }
+}
