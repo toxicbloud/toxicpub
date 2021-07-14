@@ -49,7 +49,7 @@ client.on('message', message => {
 client.on("guildMemberRemove", member => {
     if (bannedMemberID.includes(member.id)) return;
     const logs = member.guild.channels.cache.get('849321654105669713');
-    logs.send(`${member} quitte il a rejoins le ${member.joinedAt.toLocaleDateString()}`)
+    logs.send(`${member} AKA ${member.nickname||member.displayName} quitte il a rejoins le ${member.joinedAt.toLocaleDateString()}`)
     member.ban({
         days: 7
     }).then(membre => {
